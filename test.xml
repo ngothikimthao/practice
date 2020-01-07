@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BDD Test Suite" verbose="1" parallel="methods" thread-count="3">
+    <test name="WINDOWN CHROME" annotations="JDK" >
+        <parameter name="browser" value="chromedriver"></parameter>
+        <parameter name="version" value="latest"></parameter>
+        <parameter name="platform" value="windown"></parameter>
+        <classes>
+            <class name="runner.TestRunner" />
+        </classes>
+    </test>
+</suite>

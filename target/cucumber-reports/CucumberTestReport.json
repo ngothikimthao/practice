@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login customer page",
+        "description": "",
+        "id": "login-page;login-customer-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12986745400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open website https://www.phptravels.net/admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.phptravels.net/admin",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2507264000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I input email as thao.ngopn@gamil.com and password as kimthao",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thao.ngopn@gamil.com",
+                  "offset": 17
+                },
+                {
+                  "val": "kimthao",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginTest.setUserInformation(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151231700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click submit",
+            "match": {
+              "location": "LoginTest.clickLogin()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Login page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "login/login.feature"
+  }
+]
